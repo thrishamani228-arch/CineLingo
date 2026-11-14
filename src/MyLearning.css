@@ -1,0 +1,553 @@
+.my-learning-page {
+  min-height: 100vh;
+  background: #fffaf7;
+  color: #2d2424;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+.my-learning-header {
+  height: 75px;
+  background: white;
+  border-bottom: 1px solid #eadbd5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.my-learning-logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #8b3a3a;
+}
+
+.back-home-btn {
+  border: none;
+  background: none;
+  color: #3f302c;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.back-home-btn:hover {
+  color: #8b3a3a;
+}
+
+
+/* TITLE */
+
+.my-learning-title {
+  text-align: center;
+  padding: 55px 20px 35px;
+}
+
+.my-learning-title p,
+.section-title p,
+.quiz-label {
+  color: #8b3a3a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.my-learning-title h1 {
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.my-learning-title span {
+  color: #4b3a34;
+}
+
+
+/* CONTINUE */
+
+.continue-learning-card {
+  width: 82%;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 18px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-shadow: 0 8px 25px rgba(90, 50, 40, 0.08);
+}
+
+.continue-movie-poster {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #542727, #934343);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.continue-movie-content {
+  flex: 1;
+}
+
+.card-label {
+  color: #8b3a3a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.continue-movie-content h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+
+.movie-language {
+  color: #4b3a34;
+}
+
+.main-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.main-progress-bar {
+  width: 70%;
+  height: 9px;
+  background: #eadbd5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.main-progress-fill {
+  width: 80%;
+  height: 100%;
+  background: #8b3a3a;
+}
+
+.main-progress span {
+  color: #8b3a3a;
+  font-weight: 700;
+}
+
+.continue-movie-content button,
+.my-movie-content button {
+  background: #8b3a3a;
+  color: white;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.continue-movie-content button:hover,
+.my-movie-content button:hover {
+  background: #702d2d;
+}
+
+
+/* GENERAL SECTIONS */
+
+.progress-section,
+.my-movies-section,
+.recent-section,
+.vocabulary-section,
+.achievements-section {
+  width: 82%;
+  margin: 60px auto;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  margin: 5px 0 25px;
+}
+
+
+/* PROGRESS */
+
+.progress-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.progress-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(90, 50, 40, 0.06);
+}
+
+.progress-icon {
+  font-size: 28px;
+}
+
+.progress-card h3 {
+  font-size: 27px;
+  color: #8b3a3a;
+  margin: 8px 0;
+}
+
+.progress-card span {
+  color: #4b3a34;
+}
+
+.overall-progress {
+  margin-top: 20px;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.overall-progress-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overall-progress-heading h3 {
+  margin: 0;
+}
+
+.overall-progress-heading p {
+  color: #4b3a34;
+  margin-bottom: 0;
+}
+
+.overall-progress-heading strong {
+  font-size: 24px;
+  color: #8b3a3a;
+}
+
+.overall-bar {
+  margin-top: 18px;
+  height: 10px;
+  background: #eadbd5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.overall-fill {
+  width: 80%;
+  height: 100%;
+  background: #8b3a3a;
+}
+
+
+/* MY MOVIES */
+
+.my-movies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.my-movie-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 5px 18px rgba(90, 50, 40, 0.06);
+}
+
+.movie-card-poster {
+  width: 120px;
+  height: 140px;
+  background: #f0dfd8;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.my-movie-content {
+  flex: 1;
+}
+
+.my-movie-content h3 {
+  margin: 0;
+}
+
+.my-movie-content p {
+  color: #4b3a34;
+}
+
+.movie-progress {
+  height: 7px;
+  background: #eadbd5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 15px 0 8px;
+}
+
+.movie-progress-fill {
+  height: 100%;
+  background: #8b3a3a;
+}
+
+.true-beauty {
+  width: 80%;
+}
+
+.business-proposal {
+  width: 50%;
+}
+
+.my-movie-content span {
+  display: block;
+  font-size: 13px;
+  color: #5a4540;
+  margin-bottom: 15px;
+}
+
+
+/* RECENTLY LEARNED */
+
+.recent-list {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.recent-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px;
+  border-bottom: 1px solid #eee0da;
+}
+
+.recent-item:last-child {
+  border-bottom: none;
+}
+
+.recent-icon {
+  width: 45px;
+  height: 45px;
+  background: #f5e6e0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-item h3 {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.recent-item p {
+  margin: 0;
+  color: #5a4540;
+  font-size: 14px;
+}
+
+.completed {
+  margin-left: auto;
+  color: #467346;
+  font-size: 13px;
+}
+
+
+/* VOCABULARY */
+
+.vocabulary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.word-card {
+  background: white;
+  padding: 22px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(90, 50, 40, 0.06);
+}
+
+.word-card strong {
+  display: block;
+  color: #8b3a3a;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.word-card span {
+  color: #4b3a34;
+}
+
+.review-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 11px 20px;
+  background: white;
+  border: 1px solid #8b3a3a;
+  color: #8b3a3a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.achievement-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(90, 50, 40, 0.06);
+}
+
+.achievement-card div {
+  font-size: 38px;
+}
+
+.achievement-card h3 {
+  margin-bottom: 5px;
+}
+
+.achievement-card p {
+  color: #4b3a34;
+}
+
+
+/* QUIZ */
+
+.my-learning-quiz {
+  width: 82%;
+  margin: 70px auto 50px;
+  padding: 45px;
+  border-radius: 20px;
+  background: #f5e6e0;
+}
+
+.my-learning-quiz h2 {
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+.quiz-subtitle {
+  color: #4b3a34;
+}
+
+.quiz-card {
+  margin-top: 25px;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.quiz-card h3 {
+  margin-bottom: 22px;
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.quiz-option {
+  background: white;
+  border: 1px solid #d8c4bc;
+  color: #3f302c;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.quiz-option:hover,
+.quiz-option.selected {
+  border-color: #8b3a3a;
+  background: #fff3ef;
+}
+
+.quiz-result {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.quiz-result.correct {
+  background: #e6f3e6;
+  color: #286228;
+}
+
+.quiz-result.wrong {
+  background: #f8e1e1;
+  color: #8b3030;
+}
+
+
+/* FOOTER */
+
+.my-learning-footer {
+  text-align: center;
+  padding: 30px;
+}
+
+.my-learning-footer button {
+  background: none;
+  border: none;
+  color: #8b3a3a;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+
+  .progress-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .my-movies-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vocabulary-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .achievement-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .continue-learning-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .progress-cards,
+  .vocabulary-grid,
+  .quiz-options {
+    grid-template-columns: 1fr;
+  }
+
+  .continue-learning-card,
+  .my-movie-card {
+    padding: 20px;
+  }
+
+}
