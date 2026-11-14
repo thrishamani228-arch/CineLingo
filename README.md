@@ -1,16 +1,118 @@
-# React + Vite
+# CineLingo – Learn Languages Through Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CineLingo** is a movie-based language learning web application that helps users learn new languages through movie and drama video lessons.
 
-Currently, two official plugins are available:
+The platform makes language learning more interesting by combining entertainment with educational content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **User Registration and Login** – Users can create an account and log in.
+- **Video-Based Learning** – Learn languages through movie and drama lessons.
+- **Multiple Languages** – Explore Korean, English, and Japanese learning content.
+- **Learning Progress Tracking** – Save and track learning activities.
+- **Admin Dashboard** – View user learning progress.
+- **Feedback System** – Users can submit feedback.
+- **About Us Page** – Learn more about the CineLingo platform.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- Node.js
+- Express.js
+- MySQL
+- mysql2
+- CORS
+
+## Project Structure
+
+```text
+CineLingo/
+│
+├── public/
+│
+├── src/
+│   ├── backend/
+│   │   └── server.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── Login.jsx
+│   ├── Login.css
+│   ├── LearningPage.jsx
+│   ├── LearningPage.css
+│   ├── AboutUs.jsx
+│   ├── AboutUs.css
+│   ├── Admin.jsx
+│   └── Admin.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/thrishamani228-arch/CineLingo.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd CineLingo
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure MySQL
+
+- Install and start MySQL.
+- Create the database named `cinelingo`.
+- Create the required database tables.
+- Configure the database connection in `src/backend/server.js`.
+
+### 5. Start the Backend
+
+```bash
+node src/backend/server.js
+```
+
+### 6. Start the Frontend
+
+Open another terminal in the project folder and run:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal to access CineLingo.
+
+## Project Objective
+
+The main objective of CineLingo is to make language learning enjoyable and accessible through movie and drama-based educational content.
+
+## Developer
+
+**Thrisha**
+
+BCA Student
+
+## Project Type
+
+Academic Web Development Project
